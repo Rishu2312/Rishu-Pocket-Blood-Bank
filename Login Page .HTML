@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css login page 2.css">
+</head>
+<style>
+    *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+        }
+
+</style>
+<body>
+    <div class="main">
+        <h1>Login Page</h1>
+        <form action="" id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your Username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your Password" required><br><br>
+            <button type="submit">Login</button>
+            <p>Forgot password? <a href="#" id="forgot-password">Click here</a></p>
+            <p>New user? <a href="#" id="new-registration">Register now</a></p>
+            <p>Administration login? <a href="#" id="admin-login">Login as admin</a></p>
+        </form>
+    </div>
+
+    <!-- Forgot password form -->
+    <div class="forgot-password" style="display: none;">
+        <h2>Forgot Password</h2>
+        <form action="" id="forgot-password-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+            <button type="submit">Send reset link</button>
+        </form>
+    </div>
+
+    <!-- New registration form -->
+    <div class="new-registration" style="display: none;">
+        <h2>New Registration</h2>
+        <form action="" id="new-registration-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your Username" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <!-- Administration login form -->
+    <div class="admin-login" style="display: none;">
+        <h2>Administration Login</h2>
+        <form action="" id="admin-login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your Username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+            <button type="submit">Login as admin</button>
+        </form>
+    </div>
+
+    <script>
+        // Toggle forms on click
+        document.getElementById("forgot-password").addEventListener("click", function() {
+            document.getElementById("login-form").style.display = "none";
+            document.getElementById("forgot-password-form").style.display = "block";
+        });
+
+        document.getElementById("new-registration").addEventListener("click", function() {
+            document.getElementById("login-form").style.display = "none";
+            document.getElementById("new-registration-form").style.display = "block";
+        });
+
+        document.getElementById("admin-login").addEventListener("click", function() {
+            document.getElementById("login-form").style.display = "none";
+            document.getElementById("admin-login-form").style.display = "block";
+        });
+    </script>
+</body>
+</html>
