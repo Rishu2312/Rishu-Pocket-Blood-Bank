@@ -1,0 +1,22 @@
+body {
+    background-image:url('Blood bank pic.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position-x: center;
+    
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+nav a {
+    text-decoration: underline;
+    font-size: medium;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color:red;
+}
