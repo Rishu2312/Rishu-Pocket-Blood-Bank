@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Looking for Blood</title>
+	<link rel="stylesheet" href="style.css">
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.search-bar {
+  background-color: #c00;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.search-form select {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-button {
+  background-color: #c00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Pocket Blood Bank</h1>
+  <h2>Blood Stock Availability</h2>
+  <div class="search-bar">
+    Search Blood Stock
+  </div>
+  <form class="search-form">
+    <select>
+      <option value="">Select State</option>
+      </select>
+    <select>
+      <option value="">Select District</option>
+      </select>
+    <select>
+      <option value="">All Blood Groups</option>
+      </select>
+    <select>
+      <option value="">Whole Blood</option>
+      </select>
+  </form>
+  <button class="search-button">Search</button>
+</div>
+
+</body>
+</html>
