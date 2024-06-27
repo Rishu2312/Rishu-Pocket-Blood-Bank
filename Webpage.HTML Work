@@ -1,0 +1,154 @@
+<!-- HTML -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pocket Blood Bank</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+	<div class="container">
+		<h1>Pocket Blood Bank</h1>
+		<div class="button-container">
+			<button class="icon-button">
+				<i class="fas fa-info-circle"></i>
+				About us
+			</button>
+			<button class="icon-button">
+				<i class="fas fa-search"></i>
+				Looking for blood
+			</button>
+			<button class="icon-button">
+				<i class="fas fa-heart"></i>
+				Want to donate blood
+			</button>
+			<button class="icon-button">
+				<i class="fas fa-lock"></i>
+				Login
+			</button>
+		</div>
+	</div>
+    <style>
+    .button {
+        background-color: orange;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+      }
+      
+      .button:hover {
+        background-color: #e9a819;
+      }
+      
+      .button2 {
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+      }
+      
+      .button2:hover {
+        background-color: #c20a0a;
+      }
+      </style>
+      </head>
+      <body>
+      
+      <button class="button">
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        Blood Donation Camps
+      </button>
+      
+      <button class="button2">
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        Donor Login
+      </button>
+      <style>
+        table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Compatible Blood Type Donors</h2>
+
+<table>
+  <tr>
+    <th>Blood Type</th>
+    <th>Donate Blood To</th>
+    <th>Receive Blood From</th>
+  </tr>
+  <tr>
+    <td>A+</td>
+    <td>A+ AB+</td>
+    <td>A+ A- O+ O-</td>
+  </tr>
+  <tr>
+    <td>O+</td>
+    <td>O+ A+ B+ AB+</td>
+    <td>O+ O-</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>B+ AB+</td>
+    <td>B+ B- O+ O-</td>
+  </tr>
+  <tr>
+    <td>AB+</td>
+    <td>AB+</td>
+    <td>Everyone</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>A+ A- AB+ AB-</td>
+    <td>A- O-</td>
+  </tr>
+  <tr>
+    <td>O-</td>
+    <td>Everyone</td>
+    <td>O-</td>
+  </tr>
+  <tr>
+    <td>B-</td>
+    <td>B+ B- AB+ AB-</td>
+    <td>B- O-</td>
+  </tr>
+  <tr>
+    <td>AB-</td>
+    <td>AB+ AB-</td>
+    <td>AB- A- B- O-</td>
+  </tr>
+</table>
+
+      </style>
+      
+      
+</body>
+</html>
